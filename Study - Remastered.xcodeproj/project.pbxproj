@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EF29D988C082F337A8B32AC /* Pods_Study___Remastered.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B1263B85452003840FB4BC /* Pods_Study___Remastered.framework */; };
+		C93AA21E27DAA90900AC9BBC /* Study___RemasteredApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93AA21D27DAA90900AC9BBC /* Study___RemasteredApp.swift */; };
+		C93AA22027DAA90900AC9BBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93AA21F27DAA90900AC9BBC /* ContentView.swift */; };
+		C93AA22227DAA90B00AC9BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93AA22127DAA90B00AC9BBC /* Assets.xcassets */; };
+		C93AA22527DAA90B00AC9BBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93AA22427DAA90B00AC9BBC /* Preview Assets.xcassets */; };
+		C93AA22C27DAB39100AC9BBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C93AA22B27DAB39100AC9BBC /* GoogleService-Info.plist */; };
+		C93AA22E27DAFF7500AC9BBC /* AuthenticationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93AA22D27DAFF7500AC9BBC /* AuthenticationModel.swift */; };
+		C93AA23027DAFF9100AC9BBC /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93AA22F27DAFF9100AC9BBC /* Authenticator.swift */; };
+		C93AA23227DAFFA600AC9BBC /* AuthetnicatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93AA23127DAFFA600AC9BBC /* AuthetnicatorManager.swift */; };
+		C9A4FD0227E103A40096AA2A /* EditableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A4FD0127E103A40096AA2A /* EditableText.swift */; };
+		C9A4FD0427E103BA0096AA2A /* EditableTextUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A4FD0327E103BA0096AA2A /* EditableTextUtilities.swift */; };
+		C9A4FD0627E177BA0096AA2A /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A4FD0527E177BA0096AA2A /* test.swift */; };
+		C9A4FD0827E243050096AA2A /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A4FD0727E243050096AA2A /* TextEditor.swift */; };
+		C9CCA7A927DC16A20074684A /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCA7A827DC16A20074684A /* UserData.swift */; };
+		C9CCA7AB27DC18A70074684A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCA7AA27DC18A70074684A /* Utilities.swift */; };
+		C9CCA7AD27DD39BA0074684A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCA7AC27DD39BA0074684A /* Card.swift */; };
+		C9CCA7AF27DD39CA0074684A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCA7AE27DD39CA0074684A /* CardView.swift */; };
+		C9CCA7B227DD3E940074684A /* MathSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCA7B127DD3E940074684A /* MathSymbols.swift */; };
+		C9CCA7B527DD5DA20074684A /* RichTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCA7B427DD5DA20074684A /* RichTextEditor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29B1263B85452003840FB4BC /* Pods_Study___Remastered.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Study___Remastered.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0B4E33FB4C28C964008768 /* Pods-Study - Remastered.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Study - Remastered.release.xcconfig"; path = "Target Support Files/Pods-Study - Remastered/Pods-Study - Remastered.release.xcconfig"; sourceTree = "<group>"; };
+		C292AE53D62D50C65B0258A6 /* Pods-Study - Remastered.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Study - Remastered.debug.xcconfig"; path = "Target Support Files/Pods-Study - Remastered/Pods-Study - Remastered.debug.xcconfig"; sourceTree = "<group>"; };
+		C93AA21A27DAA90900AC9BBC /* Study - Remastered.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study - Remastered.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93AA21D27DAA90900AC9BBC /* Study___RemasteredApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Study___RemasteredApp.swift"; sourceTree = "<group>"; };
+		C93AA21F27DAA90900AC9BBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C93AA22127DAA90B00AC9BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C93AA22427DAA90B00AC9BBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C93AA22B27DAB39100AC9BBC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C93AA22D27DAFF7500AC9BBC /* AuthenticationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationModel.swift; sourceTree = "<group>"; };
+		C93AA22F27DAFF9100AC9BBC /* Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
+		C93AA23127DAFFA600AC9BBC /* AuthetnicatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthetnicatorManager.swift; sourceTree = "<group>"; };
+		C9A4FD0127E103A40096AA2A /* EditableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableText.swift; sourceTree = "<group>"; };
+		C9A4FD0327E103BA0096AA2A /* EditableTextUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextUtilities.swift; sourceTree = "<group>"; };
+		C9A4FD0527E177BA0096AA2A /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		C9A4FD0727E243050096AA2A /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
+		C9CCA7A827DC16A20074684A /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		C9CCA7AA27DC18A70074684A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		C9CCA7AC27DD39BA0074684A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Card.swift; path = "/Users/brianmasse/Developer/Xcode /Study-Remastered/Study - Remastered/Card.swift"; sourceTree = "<absolute>"; };
+		C9CCA7AE27DD39CA0074684A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C9CCA7B127DD3E940074684A /* MathSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathSymbols.swift; sourceTree = "<group>"; };
+		C9CCA7B427DD5DA20074684A /* RichTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextEditor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C93AA21727DAA90900AC9BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EF29D988C082F337A8B32AC /* Pods_Study___Remastered.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C29966B4ACD0806066470948 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B1263B85452003840FB4BC /* Pods_Study___Remastered.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C93AA21127DAA90900AC9BBC = {
+			isa = PBXGroup;
+			children = (
+				C93AA21C27DAA90900AC9BBC /* Study - Remastered */,
+				C93AA21B27DAA90900AC9BBC /* Products */,
+				D3BF8858EC91DBE0EA2C73FF /* Pods */,
+				C29966B4ACD0806066470948 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C93AA21B27DAA90900AC9BBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C93AA21A27DAA90900AC9BBC /* Study - Remastered.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C93AA21C27DAA90900AC9BBC /* Study - Remastered */ = {
+			isa = PBXGroup;
+			children = (
+				C93AA21D27DAA90900AC9BBC /* Study___RemasteredApp.swift */,
+				C9A4FD0027E103800096AA2A /* TextEditor */,
+				C9CCA7B027DD39D00074684A /* Cards */,
+				C93AA21F27DAA90900AC9BBC /* ContentView.swift */,
+				C9CCA7A827DC16A20074684A /* UserData.swift */,
+				C9CCA7B327DD3E9A0074684A /* Utulities */,
+				C93AA23327DAFFB200AC9BBC /* Authenticcation */,
+				C93AA22127DAA90B00AC9BBC /* Assets.xcassets */,
+				C93AA22B27DAB39100AC9BBC /* GoogleService-Info.plist */,
+				C93AA22327DAA90B00AC9BBC /* Preview Content */,
+			);
+			path = "Study - Remastered";
+			sourceTree = "<group>";
+		};
+		C93AA22327DAA90B00AC9BBC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C93AA22427DAA90B00AC9BBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C93AA23327DAFFB200AC9BBC /* Authenticcation */ = {
+			isa = PBXGroup;
+			children = (
+				C93AA22F27DAFF9100AC9BBC /* Authenticator.swift */,
+				C93AA23127DAFFA600AC9BBC /* AuthetnicatorManager.swift */,
+				C93AA22D27DAFF7500AC9BBC /* AuthenticationModel.swift */,
+			);
+			path = Authenticcation;
+			sourceTree = "<group>";
+		};
+		C9A4FD0027E103800096AA2A /* TextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				C9CCA7B127DD3E940074684A /* MathSymbols.swift */,
+				C9A4FD0127E103A40096AA2A /* EditableText.swift */,
+				C9A4FD0727E243050096AA2A /* TextEditor.swift */,
+				C9A4FD0527E177BA0096AA2A /* test.swift */,
+				C9A4FD0327E103BA0096AA2A /* EditableTextUtilities.swift */,
+			);
+			path = TextEditor;
+			sourceTree = "<group>";
+		};
+		C9CCA7B027DD39D00074684A /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				C9CCA7AC27DD39BA0074684A /* Card.swift */,
+				C9CCA7AE27DD39CA0074684A /* CardView.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		C9CCA7B327DD3E9A0074684A /* Utulities */ = {
+			isa = PBXGroup;
+			children = (
+				C9CCA7AA27DC18A70074684A /* Utilities.swift */,
+				C9CCA7B427DD5DA20074684A /* RichTextEditor.swift */,
+			);
+			path = Utulities;
+			sourceTree = "<group>";
+		};
+		D3BF8858EC91DBE0EA2C73FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C292AE53D62D50C65B0258A6 /* Pods-Study - Remastered.debug.xcconfig */,
+				3C0B4E33FB4C28C964008768 /* Pods-Study - Remastered.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C93AA21927DAA90900AC9BBC /* Study - Remastered */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C93AA22827DAA90B00AC9BBC /* Build configuration list for PBXNativeTarget "Study - Remastered" */;
+			buildPhases = (
+				C100D728A587299505AF32E6 /* [CP] Check Pods Manifest.lock */,
+				C93AA21627DAA90900AC9BBC /* Sources */,
+				C93AA21727DAA90900AC9BBC /* Frameworks */,
+				C93AA21827DAA90900AC9BBC /* Resources */,
+				B3F844340E6CACB988D886D7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Study - Remastered";
+			productName = "Study - Remastered";
+			productReference = C93AA21A27DAA90900AC9BBC /* Study - Remastered.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C93AA21227DAA90900AC9BBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C93AA21927DAA90900AC9BBC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C93AA21527DAA90900AC9BBC /* Build configuration list for PBXProject "Study - Remastered" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C93AA21127DAA90900AC9BBC;
+			productRefGroup = C93AA21B27DAA90900AC9BBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C93AA21927DAA90900AC9BBC /* Study - Remastered */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C93AA21827DAA90900AC9BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93AA22527DAA90B00AC9BBC /* Preview Assets.xcassets in Resources */,
+				C93AA22227DAA90B00AC9BBC /* Assets.xcassets in Resources */,
+				C93AA22C27DAB39100AC9BBC /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3F844340E6CACB988D886D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Study - Remastered/Pods-Study - Remastered-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Study - Remastered/Pods-Study - Remastered-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Study - Remastered/Pods-Study - Remastered-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C100D728A587299505AF32E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Study - Remastered-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C93AA21627DAA90900AC9BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93AA22E27DAFF7500AC9BBC /* AuthenticationModel.swift in Sources */,
+				C9CCA7AF27DD39CA0074684A /* CardView.swift in Sources */,
+				C93AA23027DAFF9100AC9BBC /* Authenticator.swift in Sources */,
+				C9CCA7AB27DC18A70074684A /* Utilities.swift in Sources */,
+				C9A4FD0227E103A40096AA2A /* EditableText.swift in Sources */,
+				C9CCA7A927DC16A20074684A /* UserData.swift in Sources */,
+				C9CCA7B527DD5DA20074684A /* RichTextEditor.swift in Sources */,
+				C9A4FD0827E243050096AA2A /* TextEditor.swift in Sources */,
+				C93AA23227DAFFA600AC9BBC /* AuthetnicatorManager.swift in Sources */,
+				C93AA22027DAA90900AC9BBC /* ContentView.swift in Sources */,
+				C9CCA7B227DD3E940074684A /* MathSymbols.swift in Sources */,
+				C9A4FD0427E103BA0096AA2A /* EditableTextUtilities.swift in Sources */,
+				C93AA21E27DAA90900AC9BBC /* Study___RemasteredApp.swift in Sources */,
+				C9CCA7AD27DD39BA0074684A /* Card.swift in Sources */,
+				C9A4FD0627E177BA0096AA2A /* test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C93AA22627DAA90B00AC9BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C93AA22727DAA90B00AC9BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C93AA22927DAA90B00AC9BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C292AE53D62D50C65B0258A6 /* Pods-Study - Remastered.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Study - Remastered/Preview Content\"";
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Masse.Study---Remastered";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C93AA22A27DAA90B00AC9BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0B4E33FB4C28C964008768 /* Pods-Study - Remastered.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Study - Remastered/Preview Content\"";
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Masse.Study---Remastered";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C93AA21527DAA90900AC9BBC /* Build configuration list for PBXProject "Study - Remastered" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93AA22627DAA90B00AC9BBC /* Debug */,
+				C93AA22727DAA90B00AC9BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C93AA22827DAA90B00AC9BBC /* Build configuration list for PBXNativeTarget "Study - Remastered" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93AA22927DAA90B00AC9BBC /* Debug */,
+				C93AA22A27DAA90B00AC9BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C93AA21227DAA90900AC9BBC /* Project object */;
+}
